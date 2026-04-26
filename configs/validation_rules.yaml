@@ -1,0 +1,43 @@
+fields:
+  title:
+    type: str
+    required: true
+    max_length: 65
+
+  external_link:
+    type: str
+    required: true
+    regex: "^https?://.+"
+
+  created_at:
+    type: str
+    required: true
+    regex: '^\d{4}-\d{2}-\d{2}$'
+
+  entity:
+    type: str
+    required: true
+
+  rtype_id:
+    type: int
+    required: true
+
+  classification_id:
+    type: int
+    required: true
+
+  summary:
+    type: str
+    required: false
+
+  gtype:
+    type: str
+    required: false
+
+  is_active:
+    type: bool
+    required: false
+
+  update_at:
+    type: str
+    required: false

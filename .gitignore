@@ -1,0 +1,15 @@
+# Entorno
+.env
+
+# Airflow
+logs/
+plugins/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# Sistema
+.DS_Store
